@@ -1,0 +1,7 @@
+services:
+  arlyx-lite:
+    build: .
+    container_name: arlyx-lite
+    ports:
+      - "7000:7000"
+    restart: always
